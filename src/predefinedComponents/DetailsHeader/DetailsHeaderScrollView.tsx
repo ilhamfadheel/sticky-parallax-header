@@ -26,6 +26,7 @@ export const DetailsHeaderScrollView = React.forwardRef<ScrollView, DetailsHeade
       nestedScrollEnabled = true,
       overScrollMode = 'never',
       renderHeaderBar,
+      renderHeader,
       rightTopIcon,
       rightTopIconAccessibilityLabel,
       rightTopIconOnPress,
@@ -40,7 +41,6 @@ export const DetailsHeaderScrollView = React.forwardRef<ScrollView, DetailsHeade
       onMomentumScrollEnd,
       onScroll,
       onScrollEndDrag,
-      renderHeader,
       scrollViewRef,
     } = useDetailsHeader<ScrollView>(props);
 
